@@ -1,0 +1,29 @@
+.profile-container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+}
+
+.profile-title {
+  text-align: center;
+  color: #e9963e; /* Hindu religious theme */
+}
+
+.profile-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.error-text {
+  color: red;
+  text-align: center;
+}
+
+button {
+  background-color: #e9963e !important;
+  border: none;
+}

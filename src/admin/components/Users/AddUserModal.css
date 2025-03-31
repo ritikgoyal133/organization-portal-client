@@ -1,0 +1,63 @@
+/* Center the modal content */
+.modal-content {
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* File Upload Styling */
+.custom-file-upload {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100px;
+  height: 100px;
+  background-color: #f8f9fa;
+  border: 2px dashed #007bff;
+  border-radius: 50%;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.custom-file-upload:hover {
+  background-color: #e9ecef;
+}
+
+/* Hide default file input */
+#file-upload {
+  display: none;
+}
+
+/* Profile Picture Preview */
+.preview-img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 3px solid #007bff;
+}
+
+/* Form Input Styling */
+.form-control {
+  border-radius: 8px;
+}
+
+/* Form Label Icons */
+.form-label svg {
+  margin-right: 5px;
+  color: #007bff;
+}
+
+/* Submit Button */
+.btn-primary {
+  font-weight: bold;
+  border-radius: 8px;
+  padding: 10px;
+}
+
+/* Validation Messages */
+.alert-danger {
+  font-size: 14px;
+  padding: 5px;
+  text-align: center;
+  margin-top: 5px;
+}

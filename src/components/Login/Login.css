@@ -1,0 +1,66 @@
+/* Container Styling */
+.login-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #fff5e1; /* Light Orange Theme */
+}
+
+/* Card Styling */
+.login-card {
+  width: 100%;
+  max-width: 400px;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Styling */
+.login-header {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #ff8800; /* Orange Theme */
+}
+
+/* Icon Styling */
+.form-label .icon {
+  margin-right: 5px;
+}
+
+/* Password Field with Eye Icon */
+.password-wrapper {
+  position: relative;
+}
+
+.password-wrapper input {
+  width: 100%;
+  padding-right: 40px; /* Space for eye icon */
+}
+
+.password-toggle {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #777;
+}
+
+/* Primary Button */
+.btn-primary {
+  background-color: #ff8800; /* Orange Button */
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #e67700;
+}
+
+/* Signup Link */
+.signup-link {
+  text-align: center;
+  margin-top: 15px;
+}

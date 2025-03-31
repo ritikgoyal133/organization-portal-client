@@ -1,0 +1,27 @@
+.banners-table {
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.table-title {
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+th {
+  background: #3498db !important;
+  color: white !important;
+  text-align: center;
+}
+
+td {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.action-btn {
+  margin-right: 5px;
+}

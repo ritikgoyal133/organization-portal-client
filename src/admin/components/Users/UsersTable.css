@@ -1,0 +1,92 @@
+.users-table {
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.table-title {
+  text-align: center;
+  margin-bottom: 15px;
+  color: #2c3e50;
+  font-weight: bold;
+}
+
+.custom-table {
+  background: white;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+th {
+  background: #3498db !important;
+  color: white !important;
+  text-align: center;
+}
+
+td {
+  vertical-align: middle;
+  text-align: center;
+}
+
+.action-btn {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 14px;
+}
+
+.role-badge {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.role-badge.enduser {
+  background: #2ecc71;
+  color: white;
+}
+
+.role-badge.admin {
+  background: #e74c3c;
+  color: white;
+}
+
+.role-badge.admin-member {
+  background: #f1c40f;
+  color: black;
+}
+
+.status-badge {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.status-badge.active {
+  background: #2ecc71;
+  color: white;
+}
+
+.status-badge.block {
+  background: #e74c3c;
+  color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  th,
+  td {
+    font-size: 12px;
+    padding: 8px;
+  }
+
+  .action-btn {
+    font-size: 12px;
+    padding: 4px;
+  }
+}

@@ -1,0 +1,11 @@
+.admin-dashboard {
+  display: flex;
+}
+
+.admin-content {
+  width: 100%;
+}
+
+.admin-main {
+  padding: 20px;
+}

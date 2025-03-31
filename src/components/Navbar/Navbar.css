@@ -1,0 +1,168 @@
+/* Navbar General Styling */
+.custom-navbar {
+  background-color: #e9963e; /* Saffron */
+  padding: 10px 0;
+}
+
+/* Brand Container */
+.brand-container {
+  display: flex;
+  align-items: center;
+}
+
+.custom-navbar .navbar-brand {
+  font-weight: bold;
+  font-size: 1.2rem;
+  color: white !important;
+  display: flex; /* Ensure elements align horizontally */
+  align-items: center; /* Vertically center align items */
+}
+
+.custom-navbar .nav-link {
+  color: white !important;
+  font-weight: 500;
+  transition: color 0.3s ease-in-out;
+}
+
+.custom-navbar .nav-link:hover {
+  color: #2c3e50 !important; /* Deep Blue */
+}
+
+/* Logo Styling */
+.logo {
+  height: 50px;
+  width: 50px; /* Ensure the logo is a perfect circle */
+  margin-right: 10px; /* Add space between logo and brand name */
+}
+
+/* Navbar Toggle (for Mobile) */
+.navbar-toggler {
+  border-color: white;
+}
+
+.navbar-toggler-icon {
+  background-color: white;
+}
+
+/* User Dropdown */
+.user-info {
+  display: flex;
+  align-items: center;
+}
+
+.user-photo {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-right: 8px;
+  border: 2px solid white;
+}
+
+/* Auth Buttons */
+.auth-buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.auth-buttons .btn-outline-light {
+  border-color: white !important;
+  color: white !important;
+  font-weight: bold;
+}
+
+.auth-buttons .btn-outline-light:hover {
+  background-color: white !important;
+  color: #e9963e !important;
+}
+
+/* Signup Button */
+.auth-buttons .btn-warning {
+  background-color: #2c3e50 !important; /* Deep Blue */
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+.auth-buttons .btn-warning:hover {
+  background-color: #1b2838 !important; /* Darker Blue */
+}
+
+/* Dropdown Styling */
+.navbar .dropdown-menu {
+  background-color: #e9963e !important; /* Saffron */
+  border: none;
+}
+
+.navbar .dropdown-item {
+  color: white !important;
+  font-weight: 500;
+}
+
+.navbar .dropdown-item:hover {
+  background-color: #2c3e50 !important;
+  color: white !important;
+}
+
+.navbar-nav {
+  align-items: center;
+}
+
+.user-name {
+  margin-left: 8px; /* Space between user name and photo */
+  font-weight: 500; /* Optional: Make the user name bold */
+}
+
+/* Caret Icon Positioning */
+.caret-icon {
+  display: flex;
+  align-items: center; /* Center the icon vertically */
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+  .brand-name {
+    font-size: 1rem; /* Reduce brand name font size */
+  }
+
+  .user-name {
+    font-size: 0.9rem; /* Adjust font size for smaller screens */
+  }
+
+  .auth-buttons {
+    flex-direction: column; /* Stack buttons vertically */
+    gap: 5px; /* Smaller gap between buttons */
+  }
+}
+
+/* Navbar General Styling */
+.custom-navbar {
+  background-color: #e9963e; /* Saffron */
+  padding: 10px 0;
+}
+
+/* Brand Container */
+.brand-container {
+  display: flex;
+  align-items: center;
+}
+
+/* Media Query for Mobile */
+@media (max-width: 768px) {
+  .brand-container {
+    justify-content: center; /* Center the brand on mobile */
+  }
+  .user-name {
+    font-size: 0.9rem; /* Adjust font size for smaller screens */
+  }
+
+  .auth-buttons {
+    flex-direction: column; /* Stack buttons on small screens */
+    gap: 5px; /* Adjust gap for vertical stacking */
+  }
+
+  .custom-navbar .navbar-nav {
+    flex-direction: column; /* Stack nav items on mobile */
+    align-items: center; /* Center align items */
+  }
+}

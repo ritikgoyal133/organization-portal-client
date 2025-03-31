@@ -1,0 +1,81 @@
+/* Navbar Container */
+.admin-navbar {
+  width: 100%;
+  background: #2c3e50;
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Arial", sans-serif;
+  position: relative;
+}
+
+/* Admin Dashboard Title */
+.admin-left h1 {
+  font-size: 22px;
+  margin: 0;
+}
+
+/* Right Side: Org Name & Menu Button */
+.admin-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+/* Organization Name */
+.org-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Menu Button */
+.menu-toggle {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: none;
+}
+
+/* Dropdown Menu */
+.admin-menu {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background: white;
+  color: black;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.admin-menu a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  padding: 8px 12px;
+  gap: 5px;
+}
+
+.admin-menu a:hover {
+  background: #ecf0f1;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .admin-left h1 {
+    font-size: 18px;
+  }
+
+  .org-name {
+    font-size: 16px;
+  }
+
+  .menu-toggle {
+    display: block; /* Show menu button on small screens */
+  }
+}
